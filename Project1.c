@@ -14,7 +14,7 @@
         {
             
             printf("File invalid \n ");
-            printf("Please again type the propert letter  \n ");
+            printf("Please again type the proper file location  \n ");
            return ;
         }
         fw =fopen("temp99.txt","w");
@@ -42,14 +42,7 @@
         
         }
 
-        
-        
-
-       
-        
-
-        
-        
+   
         
     }
      void Decrypt(char name[200]) {
@@ -64,7 +57,7 @@
         {
             
             printf("File invalid \n ");
-            printf("Please again type the propert letter  \n ");
+            printf("Please again type the proper file location \n ");
            return ;
         }
         fw =fopen("temp99.txt","w");
@@ -85,7 +78,7 @@
         fclose(fr);
         if ( remove("temp99.txt")==0 ) 
         {
-            printf("Your file is Decryped ");
+            printf("Your file is Decryped \n");
         
         }
      }
